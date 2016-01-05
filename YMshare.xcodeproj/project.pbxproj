@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E460ADC51C3B52AF00C84158 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E460ADC41C3B52AF00C84158 /* main.m */; };
+		E460ADC81C3B52AF00C84158 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E460ADC71C3B52AF00C84158 /* AppDelegate.m */; };
+		E460ADCB1C3B52AF00C84158 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E460ADCA1C3B52AF00C84158 /* ViewController.m */; };
+		E460ADCE1C3B52AF00C84158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E460ADCC1C3B52AF00C84158 /* Main.storyboard */; };
+		E460ADD01C3B52AF00C84158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E460ADCF1C3B52AF00C84158 /* Assets.xcassets */; };
+		E460ADD31C3B52AF00C84158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E460ADD11C3B52AF00C84158 /* LaunchScreen.storyboard */; };
+		E460ADDE1C3B52AF00C84158 /* YMshareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E460ADDD1C3B52AF00C84158 /* YMshareTests.m */; };
+		E460ADE91C3B52AF00C84158 /* YMshareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E460ADE81C3B52AF00C84158 /* YMshareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E460ADDA1C3B52AF00C84158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E460ADB81C3B52AF00C84158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E460ADBF1C3B52AF00C84158;
+			remoteInfo = YMshare;
+		};
+		E460ADE51C3B52AF00C84158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E460ADB81C3B52AF00C84158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E460ADBF1C3B52AF00C84158;
+			remoteInfo = YMshare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E460ADC01C3B52AF00C84158 /* YMshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E460ADC41C3B52AF00C84158 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E460ADC61C3B52AF00C84158 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E460ADC71C3B52AF00C84158 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E460ADC91C3B52AF00C84158 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E460ADCA1C3B52AF00C84158 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E460ADCD1C3B52AF00C84158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E460ADCF1C3B52AF00C84158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E460ADD21C3B52AF00C84158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E460ADD41C3B52AF00C84158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E460ADD91C3B52AF00C84158 /* YMshareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMshareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E460ADDD1C3B52AF00C84158 /* YMshareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMshareTests.m; sourceTree = "<group>"; };
+		E460ADDF1C3B52AF00C84158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E460ADE41C3B52AF00C84158 /* YMshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E460ADE81C3B52AF00C84158 /* YMshareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMshareUITests.m; sourceTree = "<group>"; };
+		E460ADEA1C3B52AF00C84158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E460ADBD1C3B52AF00C84158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E460ADD61C3B52AF00C84158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E460ADE11C3B52AF00C84158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E460ADB71C3B52AF00C84158 = {
+			isa = PBXGroup;
+			children = (
+				E460ADC21C3B52AF00C84158 /* YMshare */,
+				E460ADDC1C3B52AF00C84158 /* YMshareTests */,
+				E460ADE71C3B52AF00C84158 /* YMshareUITests */,
+				E460ADC11C3B52AF00C84158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E460ADC11C3B52AF00C84158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E460ADC01C3B52AF00C84158 /* YMshare.app */,
+				E460ADD91C3B52AF00C84158 /* YMshareTests.xctest */,
+				E460ADE41C3B52AF00C84158 /* YMshareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E460ADC21C3B52AF00C84158 /* YMshare */ = {
+			isa = PBXGroup;
+			children = (
+				E460ADC61C3B52AF00C84158 /* AppDelegate.h */,
+				E460ADC71C3B52AF00C84158 /* AppDelegate.m */,
+				E460ADC91C3B52AF00C84158 /* ViewController.h */,
+				E460ADCA1C3B52AF00C84158 /* ViewController.m */,
+				E460ADCC1C3B52AF00C84158 /* Main.storyboard */,
+				E460ADCF1C3B52AF00C84158 /* Assets.xcassets */,
+				E460ADD11C3B52AF00C84158 /* LaunchScreen.storyboard */,
+				E460ADD41C3B52AF00C84158 /* Info.plist */,
+				E460ADC31C3B52AF00C84158 /* Supporting Files */,
+			);
+			path = YMshare;
+			sourceTree = "<group>";
+		};
+		E460ADC31C3B52AF00C84158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E460ADC41C3B52AF00C84158 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E460ADDC1C3B52AF00C84158 /* YMshareTests */ = {
+			isa = PBXGroup;
+			children = (
+				E460ADDD1C3B52AF00C84158 /* YMshareTests.m */,
+				E460ADDF1C3B52AF00C84158 /* Info.plist */,
+			);
+			path = YMshareTests;
+			sourceTree = "<group>";
+		};
+		E460ADE71C3B52AF00C84158 /* YMshareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E460ADE81C3B52AF00C84158 /* YMshareUITests.m */,
+				E460ADEA1C3B52AF00C84158 /* Info.plist */,
+			);
+			path = YMshareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E460ADBF1C3B52AF00C84158 /* YMshare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E460ADED1C3B52AF00C84158 /* Build configuration list for PBXNativeTarget "YMshare" */;
+			buildPhases = (
+				E460ADBC1C3B52AF00C84158 /* Sources */,
+				E460ADBD1C3B52AF00C84158 /* Frameworks */,
+				E460ADBE1C3B52AF00C84158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMshare;
+			productName = YMshare;
+			productReference = E460ADC01C3B52AF00C84158 /* YMshare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E460ADD81C3B52AF00C84158 /* YMshareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E460ADF01C3B52AF00C84158 /* Build configuration list for PBXNativeTarget "YMshareTests" */;
+			buildPhases = (
+				E460ADD51C3B52AF00C84158 /* Sources */,
+				E460ADD61C3B52AF00C84158 /* Frameworks */,
+				E460ADD71C3B52AF00C84158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E460ADDB1C3B52AF00C84158 /* PBXTargetDependency */,
+			);
+			name = YMshareTests;
+			productName = YMshareTests;
+			productReference = E460ADD91C3B52AF00C84158 /* YMshareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E460ADE31C3B52AF00C84158 /* YMshareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E460ADF31C3B52AF00C84158 /* Build configuration list for PBXNativeTarget "YMshareUITests" */;
+			buildPhases = (
+				E460ADE01C3B52AF00C84158 /* Sources */,
+				E460ADE11C3B52AF00C84158 /* Frameworks */,
+				E460ADE21C3B52AF00C84158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E460ADE61C3B52AF00C84158 /* PBXTargetDependency */,
+			);
+			name = YMshareUITests;
+			productName = YMshareUITests;
+			productReference = E460ADE41C3B52AF00C84158 /* YMshareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E460ADB81C3B52AF00C84158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = song;
+				TargetAttributes = {
+					E460ADBF1C3B52AF00C84158 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E460ADD81C3B52AF00C84158 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E460ADBF1C3B52AF00C84158;
+					};
+					E460ADE31C3B52AF00C84158 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E460ADBF1C3B52AF00C84158;
+					};
+				};
+			};
+			buildConfigurationList = E460ADBB1C3B52AF00C84158 /* Build configuration list for PBXProject "YMshare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E460ADB71C3B52AF00C84158;
+			productRefGroup = E460ADC11C3B52AF00C84158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E460ADBF1C3B52AF00C84158 /* YMshare */,
+				E460ADD81C3B52AF00C84158 /* YMshareTests */,
+				E460ADE31C3B52AF00C84158 /* YMshareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E460ADBE1C3B52AF00C84158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E460ADD31C3B52AF00C84158 /* LaunchScreen.storyboard in Resources */,
+				E460ADD01C3B52AF00C84158 /* Assets.xcassets in Resources */,
+				E460ADCE1C3B52AF00C84158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E460ADD71C3B52AF00C84158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E460ADE21C3B52AF00C84158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E460ADBC1C3B52AF00C84158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E460ADCB1C3B52AF00C84158 /* ViewController.m in Sources */,
+				E460ADC81C3B52AF00C84158 /* AppDelegate.m in Sources */,
+				E460ADC51C3B52AF00C84158 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E460ADD51C3B52AF00C84158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E460ADDE1C3B52AF00C84158 /* YMshareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E460ADE01C3B52AF00C84158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E460ADE91C3B52AF00C84158 /* YMshareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E460ADDB1C3B52AF00C84158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E460ADBF1C3B52AF00C84158 /* YMshare */;
+			targetProxy = E460ADDA1C3B52AF00C84158 /* PBXContainerItemProxy */;
+		};
+		E460ADE61C3B52AF00C84158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E460ADBF1C3B52AF00C84158 /* YMshare */;
+			targetProxy = E460ADE51C3B52AF00C84158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E460ADCC1C3B52AF00C84158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E460ADCD1C3B52AF00C84158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E460ADD11C3B52AF00C84158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E460ADD21C3B52AF00C84158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E460ADEB1C3B52AF00C84158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E460ADEC1C3B52AF00C84158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E460ADEE1C3B52AF00C84158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMshare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = song.YMshare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E460ADEF1C3B52AF00C84158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMshare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = song.YMshare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E460ADF11C3B52AF00C84158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMshareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = song.YMshareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMshare.app/YMshare";
+			};
+			name = Debug;
+		};
+		E460ADF21C3B52AF00C84158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMshareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = song.YMshareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMshare.app/YMshare";
+			};
+			name = Release;
+		};
+		E460ADF41C3B52AF00C84158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMshareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = song.YMshareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMshare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E460ADF51C3B52AF00C84158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMshareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = song.YMshareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMshare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E460ADBB1C3B52AF00C84158 /* Build configuration list for PBXProject "YMshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E460ADEB1C3B52AF00C84158 /* Debug */,
+				E460ADEC1C3B52AF00C84158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E460ADED1C3B52AF00C84158 /* Build configuration list for PBXNativeTarget "YMshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E460ADEE1C3B52AF00C84158 /* Debug */,
+				E460ADEF1C3B52AF00C84158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E460ADF01C3B52AF00C84158 /* Build configuration list for PBXNativeTarget "YMshareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E460ADF11C3B52AF00C84158 /* Debug */,
+				E460ADF21C3B52AF00C84158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E460ADF31C3B52AF00C84158 /* Build configuration list for PBXNativeTarget "YMshareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E460ADF41C3B52AF00C84158 /* Debug */,
+				E460ADF51C3B52AF00C84158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E460ADB81C3B52AF00C84158 /* Project object */;
+}
